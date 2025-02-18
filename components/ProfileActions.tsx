@@ -22,7 +22,7 @@ export default function ProfileActions() {
       {/* Contact Me Button */}
       <Button
         variant="outline"
-        className="text-white border-white hover:bg-white/10"
+        className="text-black border-white hover:bg-neutral-200"
         onClick={() => setOpenModal("contact")}>
         Contact Me
       </Button>
