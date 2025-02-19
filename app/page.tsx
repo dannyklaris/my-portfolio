@@ -133,6 +133,7 @@ const Page = () => {
                     "Tailwind CSS",
                     "Prisma",
                     "MongoDB",
+                    "React Hook Form",
                   ].map((tech) => (
                     <span
                       key={tech}
@@ -195,6 +196,8 @@ const Page = () => {
                     "React",
                     "Node.js",
                     "Next.js",
+                    "Python",
+                    "Flask",
                     "Tailwind CSS",
                     "Microsoft Azure OpenAI",
                     "Microsoft Azure SQL Database",
