@@ -148,12 +148,15 @@ const Page = () => {
             {/* ACM-W Curation Tool Project */}
             <div className="space-y-8 md:space-y-12">
               <div className="w-full max-w-[1200px] mx-auto">
-                <Card className="bg-white border-none shadow-none">
-                  <CardContent className="flex items-center justify-center p-0 h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] relative">
+                <Card className="bg-transparent border-none shadow-none">
+                  <CardContent className="flex items-center justify-center p-0 h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] relative bg-neutral-900/50 rounded-lg">
                     <video
                       className="w-full h-full rounded-lg object-contain"
                       controls
-                      preload="metadata">
+                      preload="metadata"
+                      style={{
+                        backgroundColor: "transparent",
+                      }}>
                       <source src="/acm-w-demo.mov" type="video/quicktime" />
                       Your browser does not support the video tag.
                     </video>
@@ -167,13 +170,14 @@ const Page = () => {
                   ACM-W Curation Tool
                 </h3>
                 <p className="text-neutral-300 text-base md:text-lg text-center leading-relaxed">
-                  An innovative content curation platform developed for ACM-W,
-                  designed to streamline the process of collecting and
-                  organizing women in tech resources. This tool features
-                  automated content aggregation, smart categorization, and a
-                  collaborative review system to help maintain a high-quality
-                  resource database for the community.
+                  A powerful research curation platform built for ACM-W,
+                  designed to collect, summarize, and organize academic papers
+                  on women in computing. This tool automates data retrieval from
+                  the ACM Digital Library, generates AI-powered summaries, and
+                  enables a collaborative review system to ensure high-quality,
+                  publishable content for the community.
                 </p>
+
                 <div className="flex gap-4">
                   <Button
                     className="gap-2 text-sm md:text-base opacity-50 cursor-not-allowed"
