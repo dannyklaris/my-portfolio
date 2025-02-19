@@ -13,6 +13,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
 import ProfileActions from "@/components/ProfileActions";
+import AnimatedDescription from "@/components/AnimatedDescription";
 
 const atkin = Atkinson_Hyperlegible({
   weight: "700",
@@ -64,10 +65,8 @@ const Page = () => {
             className={`${atkin.className} text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight text-center leading-tight`}>
             Danial Akmal bin Kamal Aris
           </h1>
-          <div className="text-neutral-300 text-lg md:text-xl text-center leading-relaxed max-w-2xl px-4">
-            A software engineering student passionate about building innovative
-            solutions and creating impactful user experiences.
-          </div>
+          <AnimatedDescription />
+
           <ProfileActions />
         </div>
       </div>
